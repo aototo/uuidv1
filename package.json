@@ -5,6 +5,13 @@
       "src": [
         "uuidv1.js"
       ],
+      "task": "pre-uglify"
+    },
+    {
+      "dest": "uuidv1.min.js",
+      "src": [
+        "uuidv1.min.js"
+      ],
       "task": "uglify-js"
     }
   ],
