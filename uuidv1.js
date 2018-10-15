@@ -13,4 +13,4 @@
   } catch (_) {
     module.exports = $
   }
-})()
+})(0)
