@@ -1,3 +1,5 @@
+/* ISC (c) 2018+ Jackens * https://github.com/jackens/uuidv1 */
+
 const uuidv1 = require('./uuidv1.js')
 const uuidv1Min = require('./uuidv1.min.js')
 
