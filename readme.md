@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/node.js-supported-green.svg?style=for-the-badge)
+![](https://img.shields.io/badge/browser-supported-green.svg?style=for-the-badge)
+
 # uuidv1
 
 UUID v1 (with timestamp) generator
