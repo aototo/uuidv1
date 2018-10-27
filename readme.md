@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/node.js-supported-green.svg?style=for-the-badge)
 ![](https://img.shields.io/badge/browser-supported-green.svg?style=for-the-badge)
-[![](https://kanban-md.now.sh/badge/uuidv1.svg)](https://kanban-md.now.sh/preview/uuidv1)
+[![](https://kanban-md.now.sh/uuidv1.svg)](https://kanban-md.now.sh/uuidv1)
 
 # uuidv1
 
