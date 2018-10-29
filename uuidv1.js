@@ -1,7 +1,7 @@
 /* ISC (c) 2018+ Jackens * https://github.com/jackens/uuidv1 */
 
 (function (globalCounter) {
-  function $ () {
+  function uuidv1 () {
     var nowHex = (1e16 + (1e4 * (+new Date() + 122192928e5)).toString(16)).slice(-16)
     globalCounter %= 4096
     return [nowHex.slice(8, 16), '-', nowHex.slice(4, 8), -1, nowHex.slice(1, 4), -8, (1e3 + (globalCounter++).toString(16)).slice(-3), '-']
@@ -9,8 +9,8 @@
   }
 
   try {
-    window.uuidv1 = $
+    window.uuidv1 = uuidv1
   } catch (_) {
-    module.exports = $
+    module.exports = uuidv1
   }
 })(0)
